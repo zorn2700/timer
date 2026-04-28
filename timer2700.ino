@@ -5,8 +5,8 @@
 const char* ssid = "name ssid";
 const char* password = "pass";
 
-#define BOT_TOKEN "000000000"   // ضع توكن البوت هنا
-#define CHAT_ID "000000000"                   // ضع Chat ID الخاص بك هنا
+#define BOT_TOKEN "000000000"
+#define CHAT_ID "000000000"
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOT_TOKEN, client);
